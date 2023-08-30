@@ -30,7 +30,7 @@ The API will be available at ```https://localhost:5001/country``` (you can modif
 <a name="import"></a>To import the country data into your MongoDB database:
 
 1. Make sure you have a running MongoDB instance.
-2. Use the mongoimport command or MongoDB Compass to import the data from the NewCountries.countries.json file.
+2. Use the mongoimport command or MongoDB Compass to import the data from the `NewCountries.countries.json` file.
 ### Configuration
 <a name="config"></a>The application uses a secrets.json file to store sensitive configuration data. Make sure to add your MongoDB connection string and other settings in this file:
 
