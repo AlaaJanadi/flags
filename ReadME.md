@@ -19,12 +19,13 @@ Open the project in Visual Studio or your preferred code editor.
 <a name="usage"></a>Build and run the project.
 The API will be available at ```https://localhost:5001/country``` (you can modify the port in the launchSettings.json file).
 ### Endpoints
-<a name="endpoints"></a>**GET /country:** Retrieve information about all countries.
-**GET /country/{id}:** Retrieve information about a country by its ID.
-**GET /country/str/{id}:** Retrieve information about a country by its string ID.
-**GET /country/tld/{tld}:** Retrieve information about a country by its top-level domain (TLD).
-**GET /country/con/{continent}:** Retrieve information about countries in a specific continent.
-**GET /country/get4/{id1}/{id2}/{id3}/{id4}:** Retrieve information about four countries by their IDs.
+<a name="endpoints"></a>
+- **GET /country:** Retrieve information about all countries.
+- **GET /country/{id}:** Retrieve information about a country by its ID.
+- **GET /country/str/{id}:** Retrieve information about a country by its string ID.
+- **GET /country/tld/{tld}:** Retrieve information about a country by its top-level domain (TLD).
+- **GET /country/con/{continent}:** Retrieve information about countries in a specific continent.
+- **GET /country/get4/{id1}/{id2}/{id3}/{id4}:** Retrieve information about four countries by their IDs.
 ### Importing Data
 <a name="import"></a>To import the country data into your MongoDB database:
 
